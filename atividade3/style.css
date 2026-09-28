@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+/* Estilo do quadrado */
+#quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc; /* Cor inicial padrão (cinza) */
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Estilo dos botões */
+.botoes {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* Cores individuais dos botões */
+.btn-vermelho { background-color: #e74c3c; }
+.btn-verde    { background-color: #2ecc71; }
+.btn-azul     { background-color: #3498db; }
+.btn-amarelo  { background-color: #f1c40f; color: #333; }
+
+/* Estilo do texto de informação */
+#texto-cor {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}

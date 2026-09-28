@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro de produtos</title>
+</head>
+<body>
+
+    <h1>Pesquisa de Produtos</h1>
+
+    <!-- Campo de Pesquisa -->
+    <div class="campo">
+        <label for="pesquisa">Pesquisar produto:</label>
+
+
+        <input type="text" id="pesquisa" onkeyup="filtrarProdutos()" placeholder="Digite para filtrar...">
+    </div>
+
+    <h3>Lista de Produtos</h3>
+
+    <ul id="listaProdutos">
+        <li>Mouse</li>
+        <li>Teclado</li>
+        <li>Monitor</li>
+        <li>Notebook</li>
+        <li>Headset</li>
+        <li>Webcam</li>
+        <li>Impressora</li>
+        <li>Cabo HDMI</li>
+    </ul>
+
+    <script src="./main.js"></script>
+</body>
+</html>

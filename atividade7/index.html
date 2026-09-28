@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de formulário</title>
+</head>
+<body>
+
+    <h1>Cadastro </h1>
+
+    <div class="campo">
+        <label>Nome:</label><br>
+        <input type="text" id="nome">
+    </div>
+
+    <div class="campo">
+        <label>E-mail:</label><br>
+        <input type="email" id="email">
+    </div>
+
+    <div class="campo">
+        <label>Idade:</label><br>
+        <input type="number" id="idade">
+    </div>
+
+    <div class="campo">
+        <label>Senha:</label><br>
+        <input type="password" id="senha">
+    </div>
+
+    <div class="campo">
+        <label>Confirmar Senha:</label><br>
+        <input type="password" id="confirmarSenha">
+    </div>
+
+    <br>
+    <button onclick="cadastrar()">Cadastrar</button>
+
+    <!-- Área onde a mensagem de erro ou sucesso será exibida -->
+    <p id="mensagem" style="font-weight: bold;"></p>
+
+    <script src="./main.js"></script>
+</body>
+</html>

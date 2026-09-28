@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 60px;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilização básica da tabela */
+table {
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
